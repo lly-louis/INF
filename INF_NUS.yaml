@@ -1,0 +1,20 @@
+data_path    : /path/to/NUS_dataset
+result_path  : /path/to/test_NUS
+
+lr           : 0.0001
+scheduler    :
+  step_size  : 200
+  gamma      : 0.5
+epoch        : 500
+sample_rate  : 0.015
+mapping_size : 256
+sigma        : 1
+num_layers   : 8
+hidden_dim   : 256
+add_layer    : 4
+weight_decay : Null
+
+NUS_Dataset_size:
+  'SonyA57'      : [3264, 4912, 204, 307]  # [h, w, h_crop, w_crop]
+  'SamsungNX2000': [3648, 5472, 228, 228]
+  'OlympusEPL6'  : [3456, 4608, 288, 288]

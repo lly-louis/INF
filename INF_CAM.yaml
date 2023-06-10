@@ -1,0 +1,20 @@
+data_path    : /path/to/CAM_dataset/raw_sRGB
+result_path  : /path/to/test_CAM
+
+lr           : 0.0001
+scheduler    :
+  step_size  : 200
+  gamma      : 0.5
+epoch        : 500
+sample_rate  : 0.015
+mapping_size : 256
+sigma        : 1
+num_layers   : 8
+hidden_dim   : 256
+add_layer    : 4
+weight_decay : Null
+
+CAM_Dataset_size:
+  'SonyA57'      : [816, 1216, 204, 304]  # [h, w, h_crop, w_crop]
+  'SamsungNX2000': [912, 1360, 228, 272]
+  'OlympusEPL6'  : [864, 1152, 216, 288]
