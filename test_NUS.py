@@ -11,7 +11,7 @@ from torch.optim import lr_scheduler
 from einops import rearrange
 from skimage.metrics import structural_similarity as ssim
 
-from dataset.Dataset_CAM import RAWsRGBSamplingDataset
+from dataset.Dataset_NUS import RAWsRGBSamplingDataset
 from model.INF import INF
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'

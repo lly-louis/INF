@@ -13,7 +13,7 @@ pip install numpy einops PyYAML scikit-image imageio opencv-python tqdm
 ## Datasets
 We test our method on [NUS dataset](https://cvil.eecs.yorku.ca/projects/public_html/illuminant/illuminant.html) and [CAM dataset](https://github.com/SamsungLabs/content-aware-metadata).
 
-For NUS dataset, we follow the [previous works](https://openaccess.thecvf.com/content/WACV2021/papers/Punnappurath_Spatially_Aware_Metadata_for_Raw_Reconstruction_WACV_2021_paper.pdf) to use a [software ISP platform](https://karaimer.github.io/camera-pipeline/) to produce demosaiced RAW images and sRGB images. The final file structure is:
+For NUS dataset, we follow the [previous work](https://openaccess.thecvf.com/content/WACV2021/papers/Punnappurath_Spatially_Aware_Metadata_for_Raw_Reconstruction_WACV_2021_paper.pdf) to use a [software ISP platform](https://karaimer.github.io/camera-pipeline/) to produce demosaiced RAW images and sRGB images. The final file structure is:
 ```
 NUS_dataset
 ├── OlympusEPL6
